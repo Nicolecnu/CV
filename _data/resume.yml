@@ -10,37 +10,34 @@ photo: "assets/img/1.jpg" #照片可空，不显示
 #联系方式
 contact: #联系方式连接等3~5行
 - text: "1994.09.05"
-  #href: 'http://your-website.com'
   icon: 'icons/birthday.svg'
 - text: "中共党员"
-  #href: 'http://your-website.com'
-  icon: 'icons/party.svg'
+  icon: 'icons/party.jpg '
 - text: "18810195378"
-  #href: 'tel:1234567890'
   icon: 'icons/phone.svg'
 - text: "nicoley95@163.com" #文本内容
   #href: 'mailto:youremail@example.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
-- text: "北京市海淀区新街口外大街19号"
+- text: "北京市海淀区新街口外大街19号地遥楼281"
   icon: "icons/location.svg"
 
 #main下面是主体内容，类别条数不限
 main: #简历主要内容，
 - type: education #类别为ID
-  name: 教育 #显示名称，空则使用type
+  name: 教育背景 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
-  - title: 大学名称
-    duration: "2011年x月 - 2015年"
-    sub: 地点或学历
-    detail: 专业或者简短说明
-  - title: Your University
-    duration: Aug 2007 - Jun 2011
-    sub: Ut enim ad minim veniam
-    detail: Master Bachelor of Computer Science & Technology.
+  - title: 北京师范大学
+    duration: "2017年9月 - 2020年7月"
+    sub: 学术型硕士
+    detail: 地图学与地理信息系统专业
+  - title: 华东师范大学
+    duration: 2013年9月 - 2017年7月
+    sub: 理学学士
+    detail: 地理信息科学专业
 
 - type: skills
-  # name: "技能"
-  content:
+  name: "教学经历"
+  content
   - title: 编程语言
     items: #itmems 可以小块的方式显示
     - 汉语
